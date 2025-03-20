@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Share Tech Mono";
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(22, 18, 18);
+    color: white;
+    margin:auto
+}
+
+header{
+    justify-content: space-between;
+    width: 80vw;
+    background-color: rgb(48, 43, 43);
+    padding: 1.5rem;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.menu_list{
+    display: flex;
+}
+.nav_button{
+    margin: 0.8rem;
+}
+.nav_button_items{
+    border: 1px solid rgb(75, 74, 74);
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav_button_items:hover{
+    background-color: #b6cdf0;
+    color: black;
+    transition: 0.2s;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px white;;
+}
+    
+
+.media_icon{
+    font-size: 1.5rem;
+}
+
+.media_icon:hover{
+    color: #45E190;
+    transition: 0.2s;
+}
+
+a{
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2;
+    column-gap: 5rem;
+    align-items: center;
+    height: 65vh;
+    width: 80vw;
+}
+
+.main_button_list{
+    display: flex;
+    margin-top: 4rem;
+
+}
+#__galerie_button:hover{
+    background-color: #b6cdf0;
+    color: black;
+    transition: 0.2s;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px white;
+}
+#__contact_button{
+    background-color: white;
+    color: black;
+
+}
+#__contact_button:hover{
+      background-color: #45E190;
+    color: black;
+    transition: 0.2s;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px white;
+}
+
+.main_button{
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-right: 4rem;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+    font-size: 4rem;
+}
+h2{
+    margin: 1.1rem 0;
+}
+
+.main_section{
+    grid-column: 1;
+
+}
+
+.img_section{
+    background: url(assets/capa.jpg) center;
+    background-size: cover;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    grid-column: 2;
+    border: 2px solid rgb(175, 174, 174);
+}
+
+
+
+footer{
+    width: 80vw;
+}
+h5{
+    margin-left: 1.1rem;
+}
+.stack_icons{
+    display: flex;
+    flex-wrap: wrap ;
+    overflow-wrap: normal;
+    margin-top: 0.8rem;
+}
+.stack_icons>li{
+    padding: 1.2rem;
+}
+
+.stack_button{
+    border: 1px solid rgb(75, 74, 74);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.stack_button:hover{
+    background-color: #b6cdf0;
+    color: black;
+    transition: 0.2s;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px white;
+}
