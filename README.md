@@ -27,7 +27,7 @@ Sou estudante de **Engenharia de Software** e desenvolvedor apaixonado por tecno
 
 ## 🔗 Como me encontrar  
 
-📧 **E-mail:** [seuemail@gmail.com](jadsonrod96@outlook.com)  
+📧 **E-mail:** [e-mail](jadsonrod96@outlook.com)  
 💼 **LinkedIn:** [linkedin.com/in/jadsonrodrigues](https://linkedin.com/in/jadson-rodrigues-704845251)  
 📱 **WhatsApp:** [Clique aqui para falar comigo](https://wa.me/55027997669467?text=Olá,%20Jadson,%20gostei%20do%20seu%20trabalho!%20)  
 
