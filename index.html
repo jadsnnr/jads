@@ -7,10 +7,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/queries.css">
     <title>Jadson Rodrigues</title>
   </head>
   <body>
-    <header class="menu_list">
+    <header>
+        <div class="menu" onclick="this.classList.toggle(`active`)">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
       <!--Flex-inline-->
       <ul class="menu_list">
         <li class="nav_button"><a class="nav_button_items" href="">Início</a></li>
@@ -20,12 +26,13 @@
         <li class="nav_button"><a class="nav_button_items" href="https://wa.me/55027997669467?text=Olá,%20Jadson,%20gostei%20do%20seu%20trabalho!%20" target="_blank">Entre em Contato</a></li>
       </ul>
       <!--Space Between-->
-      <ul class="menu_list">
+      <ul class="menu_list" id="_social_media">
         <li class="nav_button">
           <a class="media_icon" href="https://www.linkedin.com/in/jadson-rodrigues-704845251/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
         </li>
         <li class="nav_button"><a class="media_icon" href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
         <li class="nav_button"><a class="media_icon" href=""><ion-icon name="logo-github"></ion-icon></a></li>
+        <li class="nav_button"><a class="media_icon" id="_contact" href=""><ion-icon name="logo-whatsapp"></ion-icon></a></li>
       </ul>
     </header>
     <main>
@@ -39,18 +46,16 @@
           <!--Flex-inline-->
           <ul class="main_button_list">
             <li>
-                <a class="main_button" id="__galerie_button" href="#">Portifólio</a>
+                <a class="main_button" id="_galerie_button" href="#">Portifólio</a>
             </li>
             <li>
-                <a class="main_button" id="__contact_button"  href="https://wa.me/55027997669467?text=Olá,%20Jadson,%20gostei%20do%20seu%20trabalho!%20" target="_blank">Vamos conversar?</a>
+                <a class="main_button" id="_contact_button"  href="https://wa.me/55027997669467?text=Olá,%20Jadson,%20gostei%20do%20seu%20trabalho!%20" target="_blank">Vamos conversar?</a>
             </li>
           </ul>
         </div>
       </section>
       <section class="img_section">
         <!--Profile image rounded corner shape-->
-        
-
       </section>
     </main>
     <footer>
@@ -75,6 +80,20 @@
     </ul>
     </footer>
 
+    <!--Script Menu Humburger-->
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const menu = document.querySelector(".menu");
+    const navButtons = document.querySelectorAll(".nav_button");
+
+    menu.addEventListener("click", function () {
+        this.classList.toggle("active");
+        navButtons.forEach(button => {
+            button.classList.toggle("show");
+        });
+    });
+});
+      </script>
     <!--Icons Usage-->
     <script
       type="module"
