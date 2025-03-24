@@ -69,11 +69,8 @@
     border-radius: 15px;
     padding: 10rem 0px;
     margin: 5rem;
-    position: absolute;
-    top: 52rem;
   }
   footer{
-    position: relative;
-    top: 42rem;
+    padding-top: 50rem;
   }
 }
