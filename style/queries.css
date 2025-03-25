@@ -32,6 +32,7 @@
   }
   .nav_button.show {
     display: flex !important;
+    transition-duration: 2s;
   }
   .menu_list{
     flex-direction: column;
