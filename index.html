@@ -20,9 +20,9 @@
       <!--Flex-inline-->
       <ul class="menu_list">
         <li class="nav_button"><a class="nav_button_items" href="index.html">Início</a></li>
-        <li class="nav_button"><a class="nav_button_items" href="accomplishment.html">Conquistas</a></li>
-        <li class="nav_button"><a class="nav_button_items" href="rec.html">Recomendações</a></li>
-        <li class="nav_button"><a class="nav_button_items" href="recentJobs.html">Trabalhos Recentes</a></li>
+        <li class="nav_button"><a class="nav_button_items" onclick="conquistas()" href="#">Conquistas</a></li>
+        <li class="nav_button"><a class="nav_button_items" onclick="recomend()" href="#">Recomendações</a></li>
+        <li class="nav_button"><a class="nav_button_items" onclick="jobs()" href="#">Trabalhos Recentes</a></li>
       </ul>
       <!--Space Between-->
       <ul class="menu_list" id="_social_media">
@@ -43,7 +43,7 @@
         <!--Flexbox Column-->
         <h1>Jadson Rodrigues</h1>
         <h2>Android Developer | Web Developer</h2>
-        <p>Apaixonado por tecnologia e desenvolvimento mobile, sou estudante de Engenharia de Software e ex-empreendedor no setor automotivo. Após seis anos em vendas e gestão, descobri na programação meu verdadeiro desafio. Em 2024, defini a meta de migrar de carreira antes do meu aniversário em julho de 2025 e, com dedicação, conquistei minha primeira vaga como dev ainda em dezembro. <br>Além do conhecimento técnico, trago habilidades interpessoais valiosas: comunicação, curiosidade e espírito empreendedor, que me mantêm conectado ao time e em constante evolução. Pai de duas meninas, casado e sempre pronto para trocar uma ideia, sou aquele cara resenha que você vai querer no time!  </p>
+        <p id="change">Apaixonado por tecnologia e desenvolvimento mobile, sou estudante de Engenharia de Software e ex-empreendedor no setor automotivo. Após seis anos em vendas e gestão, descobri na programação meu verdadeiro desafio. Em 2024, defini a meta de migrar de carreira antes do meu aniversário em julho de 2025 e, com dedicação, conquistei minha primeira vaga como dev ainda em dezembro. <br>Além do conhecimento técnico, trago habilidades interpessoais valiosas: comunicação, curiosidade e espírito empreendedor, que me mantêm conectado ao time e em constante evolução. Pai de duas meninas, casado e sempre pronto para trocar uma ideia, sou aquele cara resenha que você vai querer no time!  </p>
         <div>
           <!--Flex-inline-->
           <ul class="main_button_list">
@@ -95,6 +95,17 @@
         });
     });
 });
+
+function conquistas(){
+      document.getElementById("change").textContent="teste";
+    }
+
+    function recomend(){
+      document.getElementById("change").textContent="teste2"
+    }
+    function jobs(){
+      document.getElementById("change").textContent="teste3"
+    }
       </script>
     <!--Icons Usage-->
     <script
