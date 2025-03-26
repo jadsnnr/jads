@@ -6,7 +6,7 @@
     display: flex;
     position: sticky;
     top: 0;
-    z-index: 99999;
+    z-index: 9;
   }
   .nav_button{
     display: none;
@@ -51,18 +51,24 @@
     display: flex;
     flex-direction: column;
   }
+  
   .main_section {
-    width: 90vw;
+    max-width: 90vw;
   }
   .main_button_list {
     display: flex;
     margin-top: 4rem;
-    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 90vw;
+    margin-right: 0 !important;
 
   }
   .main_button{
     display: flex;
     flex-wrap: nowrap;
+  }
+  #_contact_button{
+    z-index: 10;
   }
 
   .img_section {
@@ -73,5 +79,6 @@
   }
   footer{
     padding-top: 50rem;
+    z-index: -99999;
   }
 }
