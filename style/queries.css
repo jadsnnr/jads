@@ -59,8 +59,7 @@
     display: flex;
     margin-top: 4rem;
     align-items: center;
-    max-width: 90vw;
-    margin-right: 0 !important;
+    justify-content: space-between;
 
   }
   .main_button{
@@ -68,14 +67,20 @@
     flex-wrap: nowrap;
   }
   #_contact_button{
-    z-index: 10;
+    width: 50vw;
+    margin-right: 0;
+
+  }
+  #_galerie_button{
+    margin-right: 0;
+
   }
 
   .img_section {
     border: none;
     border-radius: 15px;
     padding: 10rem 0px;
-    margin: 5rem;
+    margin-top: 5rem;
   }
   footer{
     padding-top: 50rem;
