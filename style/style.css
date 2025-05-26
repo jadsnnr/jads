@@ -61,7 +61,6 @@ main {
   grid-template-columns: 2;
   column-gap: 5rem;
   align-items: center;
-  height: 65vh;
   width: 80vw;
 }
 
@@ -178,6 +177,7 @@ main {
   border: 1px solid white;
   border-radius: 15px;
   margin-right: 4rem;
+  display: block;
 }
 h1 {
   font-family: "Poppins", sans-serif;
@@ -197,24 +197,20 @@ h2 {
 .img_accomplish {
   background: url(assets/capa.jpg) center;
   background-size: cover;
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
   grid-column: 2;
   border: 2px solid rgb(175, 174, 174);
 }
-.img_accomplish {
-  background: url(assets/android_basic.png) center;
-  border-radius: 15px;
-  width: 30rem;
-  height: 22rem;
-}
 
 footer {
   width: 82vw;
+  display: block;
 }
 h5 {
   margin-left: 1.1rem;
+  margin-top: 3rem;
 }
 .stack_icons {
   display: flex;
