@@ -48,7 +48,7 @@
           <!--Flex-inline-->
           <ul class="main_button_list">
             <li>
-                <a class="main_button" id="_galerie_button" href="#">Portfólio</a>
+                <a class="main_button" id="_galerie_button" onclick="jobs()" href="#">Portfólio</a>
             </li>
             <li>
                 <a class="main_button" id="_contact_button"  href="https://wa.me/55027997669467?text=Olá,%20Jadson,%20gostei%20do%20seu%20trabalho!%20" target="_blank">Vamos conversar?</a>
@@ -97,14 +97,44 @@
 });
 
 function conquistas(){
-      document.getElementById("change").textContent="teste";
+      document.getElementById("change").innerHTML=`
+      <div class="timeline">
+        <div class="container left">
+          <div class="content">
+            <h2>2025</h2>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2024</h2>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+      </div>
+      `;
     }
 
-    function recomend(){
+function recomend(){
       document.getElementById("change").textContent="teste2"
     }
-    function jobs(){
-      document.getElementById("change").textContent="teste3"
+function jobs(){
+      document.getElementById("change").innerHTML=`
+      <div class="timeline">
+        <div class="container left">
+          <div class="content">
+            <h2>2017</h2>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2016</h2>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+      </div>
+      `;
     }
       </script>
     <!--Icons Usage-->
