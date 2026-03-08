@@ -77,8 +77,11 @@
   }
 
   .img_section {
-    display: none;
-   
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10rem 0px;
+    margin-top: 5rem;
   }
   footer{
     padding-top: 3rem;
