@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/queries.css">
+    <title>Servicos</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu" onclick="this.classList.toggle(`active`)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!--Flex-inline-->
+      <ul class="menu_list">
+        <li class="nav_button">
+          <a class="nav_button_items" href="index.html">Início</a>
+        </li>
+        <li class="nav_button">
+          <a class="nav_button_items" href="services.html">Serviços</a>
+        </li>
+        <li class="nav_button">
+          <a
+            class="nav_button_items"
+            onclick="vehicles()"
+            href="javascript:void(0);"
+            >Veículos</a
+          >
+        </li>
+        <li class="nav_button">
+          <a
+            class="nav_button_items"
+            onclick="recents()"
+            href="javascript:void(0);"
+            >Atividades Recentes</a
+          >
+        </li>
+      </ul>
+      <!--Space Between-->
+      <ul class="menu_list" id="_social_media">
+        <li class="nav_button">
+          <a
+            class="media_icon"
+            href="https://www.linkedin.com/in/jadson-rodrigues-704845251/"
+            target="_blank"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+        </li>
+
+        <li class="nav_button">
+          <a
+            class="media_icon"
+            href="https://github.com/jadsnnr"
+            target="_blank"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </li>
+
+        <li class="nav_button">
+          <a
+            class="media_icon"
+            id="_contact"
+            href="https://wa.me/55027997669467?text=Olá,%20Jadson,%20gostei%20do%20seu%20trabalho!%20"
+            target="_blank"
+            ><ion-icon name="logo-whatsapp"></ion-icon
+          ></a>
+        </li>
+      </ul>
+    </header>
+  </body>
+</html>

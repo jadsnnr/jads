@@ -43,14 +43,19 @@ header {
   box-shadow: 1px 1px 1px white;
 }
 
-.media_icon {
+.media_icon,
+.wp_icon {
   font-size: 1.5rem;
 }
 
 .media_icon:hover {
-  color: #45e190;
+  color: #608df4;
   transition: 0.2s;
 }
+.wp_icon:hover {
+  color: #45e190;
+  transition: 0.2s;
+  }
 
 a {
   color: white;
@@ -183,7 +188,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 h2 {
   margin: 1.1rem 0;
@@ -195,13 +200,13 @@ h2 {
 
 .img_section,
 .img_accomplish {
-  background: url(assets/capa.jpg) center;
+  background: url(assets/profile.jpeg) top;
   background-size: cover;
   width: 25rem;
   height: 25rem;
   border-radius: 50%;
   grid-column: 2;
-  border: 2px solid rgb(175, 174, 174);
+  border: 1px solid rgb(175, 174, 174);
 }
 
 footer {
